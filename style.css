@@ -11,19 +11,19 @@ h1, header {
     text-transform: uppercase;
     text-align: center;
     display: flex;
-    color: white;
+    color: black;
     justify-content:center;
-    background-color:  #270d1a;
+    background-color:  white;
 }
 
 button {
     height: 100px;
     width: 200px;
     border-radius: 10px;
-    color: white;
-    background-color:  #8d0d4d;
+    color: black;
+    background-color:  gray;
     font-family: 'Poppins';
-    justify-content: center;
+    justify-content: space-between;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 500;
@@ -34,6 +34,7 @@ button {
 
 body {
     background-color: rgb(34, 34, 34);
+    text-align: center;
 }
 
 #vinhos {
@@ -41,7 +42,20 @@ body {
     font-family: 'Poppins';
     font-weight: 600;
     text-align: center;
+    justify-content: baseline;
+    text-transform: uppercase;
 }
+
+#list {
+    font-family: 'Poppins';
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+
+
+
 
 
 
