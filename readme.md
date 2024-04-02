@@ -1,3 +1,5 @@
+Checkpoint Lucas - Javascript
+
 Alunos: Matheus Rivera, Caio Suzano, Guilherme Linard, André Nakamatsu, Lucas Vasquez
 
 Primeiro fizemos um button e colocamos prompts para abrir box pedindo os dados e após isso usamos um push para puxar os dados da array.
