@@ -58,4 +58,5 @@ let opcao = Number(prompt(`A quantidade de vinho necessária para a festa é ${c
       return calcularVinhos()
   }
   alert(`O preço final fica R$${preco.toFixed(2)}, Obrigado por comprar conosco!`)
+}
 ```
