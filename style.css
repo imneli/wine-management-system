@@ -1,44 +1,82 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
-h1, header {
+:root {
+  --c:  #7c1b4c; 
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+}
+
+header {
     font-family: 'Poppins';
-    text-transform: uppercase;
-    text-align: center;
     display: flex;
     color: black;
     justify-content:center;
-    background-color:  white;
+    background-color:  var(--c);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
 }
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* button - start */
 
 button {
-    height: 100px;
-    width: 200px;
-    border-radius: 10px;
-    color: black;
-    background-color:  gray;
-    font-family: 'Poppins';
-    justify-content: space-between;
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  button {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 3rem;
+    width: 12rem;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
     cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;  
     border: none;
-    text-align: center;
-}
+    color: #fff;
+  }
 
+  /* button - end */
 
-body {
-    background-color: rgb(34, 34, 34);
-    text-align: center;
-}
 
 #vinhos {
-    color: white;
+    color: #fff;
+    position: fixed;
     font-family: 'Poppins';
     font-weight: 600;
     text-align: center;
@@ -50,7 +88,7 @@ body {
     font-family: 'Poppins';
     color: black;
     text-transform: uppercase;
-    background-color: white;
+    background-color: var(--c);
 }
 
 

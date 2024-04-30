@@ -1,14 +1,29 @@
-Checkpoint Lucas - Javascript
+# Checkpoint 2 - Web Development - FIAP | 1ESPJ
 
-Alunos: 
-Matheus Rivera: RM 555499
-Caio Suzano: RM 554763 
-Guilherme Linard: RM 555768 
-André Nakamatsu: RM 555004
-Lucas Vasquez: RM 555159 
+## Nomes
 
-Primeiro fizemos um button e colocamos prompts para abrir box pedindo os dados e após isso usamos um push para puxar os dados da array.
+<h2>
 
-Depois criamos outro button que ao clicar você envia a lista de dados com os parametros na lista
+<li>Matheus Montovaneli</li>
+<li>André Rocha</li>
+<li>Caio Suzano</li>
+<li>Lucas Vasquez</li>
+<li>Guilherme Linard </li>
 
-Depois criamos um elemento que cria uma div com os dados dos vinhos
+## Code
+
+<h2>
+<li><a href="#">Redirect Code</a></li>
+
+
+
+# Winery Management 🍷
+
+<p>🇧🇷 | Usando Javascript, HTML e CSS!</p>
+<p>🇺🇸 | Using Javascript, HTML and CSS!</p>
+
+# Code | app.js
+
+<img src="https://i.imgur.com/OZAX0Ci.png"/>
+
+
