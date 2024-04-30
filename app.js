@@ -33,11 +33,11 @@ function calcularVinhos () {
   const consumoTotal = pessoas * ml;
 
   const precoGarrafa1 = 100;
-  const precoGarrafa2 = 200;
+  const precoGarrafa2 = 250;
   const preco750 =  (consumoTotal / 750) * precoGarrafa1;
   const preco1500 =  (consumoTotal / 1500) * precoGarrafa2;
 
-  let opcao = Number(prompt(`Escolha a opção de garrafa que você deseja: \n1 = 750ml - R$${precoGarrafa1.toFixed(2)} \n2 = 1.5L - R$${precoGarrafa2.toFixed(2)}`));
+  let opcao = Number(prompt(`A quantidade de vinho necessária para a festa é ${consumoTotal}mls. Portanto, você pode escolher entre 2 tipos de garrafas. \n \n750ml cada uma custando R$${precoGarrafa1} e com um total de R$${preco750.toFixed(2)}\n1.5L cada uma custando R$${precoGarrafa2} e com um total de R$${preco1500.toFixed(2)}. \n \nQual delas você deseja? (1 - 750ml, 2 - 1.5L)`));
 
   switch (opcao) {
     case 1:
